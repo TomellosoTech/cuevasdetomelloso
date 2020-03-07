@@ -1592,6 +1592,9 @@ input, select, textarea {
 				font-size: 0.9em;
 				padding: 0 1.15em;
 			}
+        #main{
+            padding-top: 0;
+        }
 
 	}
 
