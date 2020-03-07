@@ -1592,9 +1592,7 @@ input, select, textarea {
 				font-size: 0.9em;
 				padding: 0 1.15em;
 			}
-        #main{
-            padding-top: 0;
-        }
+
 
 	}
 
@@ -2018,7 +2016,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+            #main{
+                padding-top: 0;
+            }
 			#main .thumb {
 				-moz-transition-delay: 1.175s;
 				-webkit-transition-delay: 1.175s;
