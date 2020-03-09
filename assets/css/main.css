@@ -1280,6 +1280,9 @@ input, select, textarea {
             .poptrox-popup .caption p.summary{
                 margin-bottom: 1.5em
             }
+            .poptrox-popup .caption p.summary span{
+                background-color: #00000050;
+            }
             .poptrox-popup .button{
                 background-color: #00000050;
             }
@@ -1355,7 +1358,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.poptrox-popup:before {
+			/* .poptrox-popup:before {
 				display: none;
 			}
 
@@ -1367,7 +1370,7 @@ input, select, textarea {
 			.poptrox-popup .nav-previous,
 			.poptrox-popup .nav-next {
 				display: none !important;
-			}
+			} */
 
 		}
 
